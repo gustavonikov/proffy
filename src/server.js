@@ -7,7 +7,7 @@ const pathStudy = path.join(__dirname, '/pages/Study/index.html');
 const pathTeach = path.join(__dirname, 'pages/Teach/index.html');
 
 server.use(express.static('public'))
-    .get('/', (request, response) => response.sendFile(pathHome, 'Não foi possível achar a página'))
-    .get('/study', (request, response) => response.sendFile(pathStudy, 'Não foi possível achar a página'))
-    .get('/teach', (request, response) => response.sendFile(pathTeach, 'Não foi possível achar a página'))
+    .get('/', (request, response) => response.sendFile(pathHome, 'Erro 404: Página não encontrada'))
+    .get('/study', (request, response) => response.sendFile(pathStudy, 'Erro 404: Página não encontrada'))
+    .get('/teach', (request, response) => response.sendFile(pathTeach, 'NErro 404: Página não encontrada))
     .listen(5500);
