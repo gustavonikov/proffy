@@ -9,5 +9,5 @@ const pathTeach = path.join(__dirname, 'pages/Teach/index.html');
 server.use(express.static('public'))
     .get('/', (request, response) => response.sendFile(pathHome, 'Erro 404: Página não encontrada'))
     .get('/study', (request, response) => response.sendFile(pathStudy, 'Erro 404: Página não encontrada'))
-    .get('/teach', (request, response) => response.sendFile(pathTeach, 'NErro 404: Página não encontrada))
+    .get('/teach', (request, response) => response.sendFile(pathTeach, 'Erro 404: Página não encontrada))
     .listen(5500);
