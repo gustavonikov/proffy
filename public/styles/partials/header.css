@@ -22,7 +22,7 @@
     transition: opacity .2s;
 }
 
-.page-header .top-bar-wrapper a:hover, :focus {
+.page-header .top-bar-wrapper a:hover {
     opacity: .6;
 }
 
