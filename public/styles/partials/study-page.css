@@ -178,7 +178,7 @@ e também da um jeito de as opções ficarem pintadas nas bordas
         padding: 0 32px;
     }
 
-    #teacher-item footer p strong {
+    .teacher-item footer p strong {
         display: initial;
         margin-left: 16px;
     }
