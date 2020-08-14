@@ -87,9 +87,9 @@
 .total-connections img{
     margin-left: 0.8rem;
 }
-@media (max-width: 900px) {
+@media (max-width: 1099px) {
     :root{
-        font-size: 40%;
+        font-size: 50%;
     }
 
     .hero-image {
