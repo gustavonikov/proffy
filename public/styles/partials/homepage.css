@@ -87,6 +87,7 @@
 .total-connections img{
     margin-left: 0.8rem;
 }
+
 @media (max-width: 1099px) {
     :root{
         font-size: 50%;
