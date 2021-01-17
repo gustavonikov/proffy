@@ -17,4 +17,4 @@ server
     .get('/study', getStudy())
     .get('/teach', getTeach())
     .post('/save-teacher-register', postTeach())
-    .listen(5500);
+    .listen(5500, () => console.log('Server running on PORT 5500'));
